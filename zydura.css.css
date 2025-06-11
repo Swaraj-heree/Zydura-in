@@ -1,0 +1,250 @@
+tittle
+{text-align: center;
+    color:#008080;
+}
+.img
+{width:50;
+    height:50;
+    justify-content:right;
+   
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navba {
+  display:;
+  justify-content: space-between;
+  align-items:center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display:flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 12px;
+}
+
+.company-name {
+
+  color: #008080;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:2px 2px 4px #ffffff;
+  margin-left: 300;
+  
+}
+
+  
+  body {
+      font-family: 'Poppins', sans-serif;
+    background-color: #edf9ef;
+    background: linear-gradient(135deg, #edf9ef, #008080);
+
+  }
+  
+  .navbar {
+    background-color: #008080;
+    padding: 10px 20px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+  }
+  
+  div {
+    color: white;
+    font-size: 2px
+    font-weight: bold;
+    font-family: sans-serif;
+   text-shadow:2px 2px 4px #000000
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left:30;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18x;
+     text-shadow:2px 2px 4px #000000;
+  }
+  
+  .nav-links a:hover {
+    width:25%;
+    text-decoration:underline;
+  }
+.img1
+{
+    border-radius:15px;
+padding-top: 100px;
+}
+/* INFO*/
+.section-heading {
+  margin-top: 30px; 
+  position: relative;
+  padding-left: 40px; 
+  text-shadow: 2px 4px 8px rgb(256, 256, 256);
+
+}
+
+.section-heading::before {
+  content: "➢"; 
+  position: absolute;
+  left: 0;
+  color: #008080;
+}
+p
+{
+font-family:sans-serif ;
+padding-left:30;
+font-size: 15px;
+}
+.section-heading2{
+  margin-top: 30px; 
+  position: relative;
+  padding-left: 40px;
+  text-shadow: 2px 4px 8px rgb(256, 256, 256); 
+}
+
+.section-heading2::before {
+  content: "➢"; 
+  position: absolute;
+  left: 0;
+  color: #008080;
+}
+.section-heading3{
+  margin-top: 30px; 
+  position: relative;
+  padding-left: 40px; 
+  text-shadow: 2px 4px 8px rgb(256, 256, 256);
+}
+
+.section-heading3::before {
+  content: "➢";
+  position: absolute;
+  left: 0;
+  color: #008080;
+}
+.section-heading4{
+  margin-top: 30px; 
+  position: relative;
+  padding-left: 40px; 
+  text-shadow: 2px 4px 8px rgb(256, 256, 256);
+}
+
+.section-heading4::before {
+  content: "➢";
+  position: absolute;
+  left: 0;
+  color: #008080;
+}
+/* slideshow */
+.slideshow {
+  width: 1000px;         /* Set your desired width */
+  height: 300px;        /* Set your desired height */
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  padding-bottom: 400px;
+  border: #000000;
+}
+
+.slides {
+  width: 100px;        /* 500px × 3 images */
+  height: 100%;
+  display: flex;
+  animation: slide 30s infinite; /* 3 images × 3s each */
+}
+
+.slides img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  border-color: black;
+}
+
+@keyframes slide {
+  0%    { transform: translateX(0); }
+  33%   { transform: translateX(-2250px); }
+  66%   { transform: translateX(-1000px); }
+  100%  { transform: translateX(0); }
+}
+/* Pause on hover */
+.slideshow:hover .slides {
+  animation-play-state: paused;
+}
+/* footer */
+.footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #ddd;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .footer .social-icons {
+      margin-top: 10px;
+    }
+
+    .footer .social-icons i {
+      margin: 0 8px;
+      cursor: pointer;
+    }
+
+    .footer p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Section Styles */
+section {
+  background: white;
+  padding: 1.5rem 4vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+margin: 0.5rem 0;
+}
+
+section h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+ /*.masked-img img {
+  width: 100%;
+  mask-image: radial-gradient(white 50%, transparent 100%);
+  -webkit-mask-image: radial-gradient(white 80%, transparent 100%);
+}*/
