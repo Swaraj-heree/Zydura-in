@@ -248,7 +248,7 @@ font-size: 15px;
   grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
   padding:2rem;
-  max-width: 100%;
+  max-width: 75%;
   margin:auto;
 }
  @media (max-width: 1024px) {
@@ -310,6 +310,7 @@ section h2 {
   padding: 40px 20px;
    color: #2c3e50;
 }
+
 
 
 
