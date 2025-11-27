@@ -103,13 +103,16 @@ overflow-x: hidden;
     width:25%;
     text-decoration:underline;
   }
-.img1
-{
-    border-radius:8px;
-padding-top: 100px;
-padding: 4px;
-height:50%;
-width: 50%;
+.img1 {
+    border-radius: 8px;
+    padding: 4px;
+    margin-top: 20px;    /* Adds space above image */
+    width: 100%;         /* Makes it responsive on mobile */
+    max-width: 600px;    /* LIMITS the size on desktop so it's not huge */
+    height: auto;        /* Keeps the correct aspect ratio (doesn't squash it) */
+    display: block;      /* Ensures it sits correctly in the layout */
+    margin-left: auto;   /* Centers the image */
+    margin-right: auto;  /* Centers the image */
 }
 /* INFO*/
 .section-heading {
@@ -307,6 +310,7 @@ section h2 {
   padding: 40px 20px;
    color: #2c3e50;
 }
+
 
 
 
