@@ -1,5 +1,5 @@
 .navba {
-  display:;
+  display:flex;
   justify-content: space-between;
   align-items:center;
   padding: 15px 30px;
@@ -235,5 +235,6 @@ body {
     button:hover {
       background-color: #0056b3;
     }
+
 
 
