@@ -74,13 +74,6 @@ overflow-x: hidden;
     flex-wrap: wrap;
   }
   
-  div {
-    color: white;
-    font-size: 2px
-    font-weight: bold;
-    font-family: sans-serif;
-    width: 100%;
-  }
   
   .nav-links {
     display: flex;
@@ -247,7 +240,7 @@ font-size: 15px;
       color: #aaa;
     }
     .grid-container {
-  display:flex;
+  display:grid;
   flex-wrap: wrap;
   grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
@@ -309,13 +302,13 @@ section h2 {
 .underline-animate:hover::after {
   transform: scaleX(1);
 }
+.header {
+  text-align: center;
+  padding: 40px 20px;
+   color: #2c3e50;
+}
 
 
- /*.masked-img img {
-  width: 100%;
-  mask-image: radial-gradient(white 50%, transparent 100%);
-  -webkit-mask-image: radial-gradient(white 80%, transparent 100%);
-}*/
 
 
 
