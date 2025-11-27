@@ -181,8 +181,8 @@ body {
       justify-content:center;
       border-radius: 20px;
       object-fit: contain;
-      padding-bottom:50 ;
-      padding-top: 50;
+      padding-bottom:50px;
+      padding-top: 50px;
       overflow-y: auto;
     }
 
@@ -235,6 +235,7 @@ body {
     button:hover {
       background-color: #0056b3;
     }
+
 
 
 
