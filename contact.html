@@ -1,76 +1,171 @@
+<!DOCTYPE html>
 <html>
+<head>
   <title>ZYDURA HEALTHCARE</title>
-  <head>
-    <meta charset="UTF-8">
-  <title>ZYDURA HEALTHCARE</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-    href="zydura.css.css">
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="zydura.css.css">
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Internal CSS for the Feedback Form */
+    .form-section {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 2px solid #008080; /* Divider line */
+    }
+    .form-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: left;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #008080;
+      font-weight: 600;
+    }
+    .form-group input, 
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+    }
+    .submit-btn {
+      background-color: #008080;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      width: 100%;
+      transition: background 0.3s;
+      font-weight: bold;
+    }
+    .submit-btn:hover {
+      background-color: #006666;
+    }
+  </style>
+</head>
+<body>
 
-  </head>
-   <body>
-      <header class="navba">
+<header class="navba">
   <div class="logo-container">
     <img src="logo.jpeg" alt="Company Logo" class="logo">
     <span class="company-name">Zyderma Division-"Empowering Beauty,Inside Out"</span>
   </div>
 </header>
-        <nav class="navbar">
-  <div>Menu</div>
-            <ul class="nav-links">
-              <li><a href="index.html"><span class="underline-animate">Home</span></a></li>
-              <li><a href="Products.html"><span class="underline-animate">Products</span></a></li>
-              <li><a href="about.html"><span class="underline-animate">About</span></a></li>
-              <li><a href="#"><span class="underline-animate">Contact us</span></a></li>
-               
-            </ul>
-          </nav><center>
-            <div data-aos="fade-up">
-                 <div class="grid-container">
-    <section class="intro">
-           </center>
-          </section>
-           <header class="header">
-          <h1>Contact us</h1>
-          </header>
-          <section class="Mission">
-         <span class="underline-animate"><h2>Zydura Healthcare</h2></span>
-           <br>
-          <p> Zydura Healthcare is a dermaceutical company committed to science-led innovation, manufacturing precision, and reliable distribution. We specialize in delivering advanced skincare solutions that meet the highest standards of efficacy, safety, and consistency for healthcare professionals and business partners.
-Our leadership combines over 20 years of expertise in pharmaceutical distribution with 30+ years of experience in wholesale and contract manufacturing. This unique synergy allows Zydura Healthcare to integrate scientific integrity with operational excellence—ensuring robust formulations, seamless supply chains, and scalable partnerships.
-            </p>
-             </section>
-             <section class="Integrity">
-           <span class="underline-animate"><h2></h2></span>
-          </h2>
-           <br>
-          <p>We are dedicated to empowering dermatologists, clinics, and distributors with products that inspire confidence and deliver measurable results.At Zydura Healthcare, our focus is clear:<ul>
-	<li>Evidence-based dermaceutical formulations</li>
-	<li>Stringent quality and compliance standards</li>
-	<li>Reliable and timely distribution</li>
-	<li>Long-term value-driven partnerships</li>
-</ul>
-            </p>
-</section>
-            </div>
-            </main>
-        </div>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <footer class="footer">
-    <div class="footer-links">
-      <a href="index.html">Home</a> |
-      <a href="Products.html">Products</a> |
-      <a href="about.html">About</a> |
-      <a href="#">Contact us</a>
-    </div>
-    <div class="social-icons">
-      <i>🌐</i>
-      <i>📘</i>
-      <i>🐦</i>
-    </div>
-    <p>&copy; 2025 Zydura Healthcare. All rights reserved.</p>
-  </footer>
-        </html>
 
+<nav class="navbar">
+  <div></div>
+  <ul class="nav-links">
+    <li><a href="index.html"><span class="underline-animate">Home</span></a></li>
+    <li><a href="Products.html"><span class="underline-animate">Products</span></a></li>
+    <li><a href="about.html"><span class="underline-animate">About</span></a></li>
+    <li><a href="#"><span class="underline-animate">Contact us</span></a></li>
+  </ul>
+</nav>
+
+<center>
+  <div data-aos="fade-up">
+    <div class="grid-container">
+      
+      <header class="header">
+      <h1>Contact us</h1>
+      </header>
+    
+      <section class="Mission">
+        <span class="underline-animate"><h2>Zydura Healthcare</h2></span>
+        <br>
+        <p> Zydura Healthcare is a dermaceutical company committed to science-led innovation, manufacturing precision, and reliable distribution. We specialize in delivering advanced skincare solutions that meet the highest standards of efficacy, safety, and consistency for healthcare professionals and business partners.
+        Our leadership combines over 20 years of expertise in pharmaceutical distribution with 30+ years of experience in wholesale and contract manufacturing. This unique synergy allows Zydura Healthcare to integrate scientific integrity with operational excellence—ensuring robust formulations, seamless supply chains, and scalable partnerships.
+        </p>
+      </section>
+
+      <section class="Integrity">
+        <span class="underline-animate"><h2></h2></span>
+        <br>
+        <p>We are dedicated to empowering dermatologists, clinics, and distributors with products that inspire confidence and deliver measurable results. At Zydura Healthcare, our focus is clear:
+        <ul>
+          <li>Evidence-based dermaceutical formulations</li>
+          <li>Stringent quality and compliance standards</li>
+          <li>Reliable and timely distribution</li>
+          <li>Long-term value-driven partnerships</li>
+        </ul>
+        </p>
+      </section>
+
+      <section class="form-section">
+        <span class="underline-animate"><h2>Patient Feedback</h2></span>
+        <div class="form-container">
+          <p style="margin-bottom: 20px; font-size: 0.9rem; color: #555;">We value your feedback. Please fill out the details below.</p>
+          
+          <form action="Formphp.php" method="POST">
+            <div class="form-group">
+              <label for="name">Patient Name:</label>
+              <input type="text" id="name" name="user_name" required placeholder="Enter full name">
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="user_age" required placeholder="e.g. 30">
+            </div>
+
+            <div class="form-group">
+              <label for="contact">Contact Number:</label>
+              <input type="tel" id="contact" name="user_contact" required placeholder="Enter mobile number">
+            </div>
+
+            <div class="form-group">
+              <label for="prescribed">Prescribed By (Doctor/Clinic):</label>
+              <input type="text" id="prescribed" name="prescribed_by" placeholder="Doctor's Name">
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <textarea id="address" name="user_address" rows="3" required placeholder="Enter full address"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</center>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">Home</a> |
+    <a href="Products.html">Products</a> |
+    <a href="about.html">About</a> |
+    <a href="#">Contact us</a>
+  </div>
+  <div class="social-icons">
+    <i>🌐</i>
+    <i>📘</i>
+    <i>🐦</i>
+  </div>
+  <p>&copy; 2025 Zydura Healthcare. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
