@@ -3,8 +3,8 @@ tittle
     color:#008080;
 }
 .img
-{width:50 px;
-    height:50 px;
+{width:50px;
+    height:50px;
     justify-content:right;
    
 
@@ -316,5 +316,6 @@ section h2 {
   mask-image: radial-gradient(white 50%, transparent 100%);
   -webkit-mask-image: radial-gradient(white 80%, transparent 100%);
 }*/
+
 
 
