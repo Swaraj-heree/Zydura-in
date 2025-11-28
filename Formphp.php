@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // --- 1. ENTER YOUR EMAIL HERE ---
-    $to_email = "info@zydura.in"; 
+    $to_email = "swarajdalvi0@gmail.com"; 
     $subject = "New Feedback Form Submission - Zydura";
     
     // --- 2. COLLECT DATA ---
@@ -36,3 +36,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
+
